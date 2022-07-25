@@ -5,39 +5,168 @@
 }
 
 
+.call-action button {
+  background-color: #3882F6;
+  margin-left: 8rem;
+  color: white;
+  padding: 1rem;
+}
+
+
+
+header .container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f2937;
+
+}
+
+header a {
+  text-decoration: none;
+  color:#E5E7EB;
+  margin: 1rem;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 1rem;
+}
+
+
+header ul li {
+  margin-right: 2rem;
+}
+
+header ul li:hover {
+  text-decoration: underline;
+}
+
 .hero {
   background-color: #1f2937;
-  height: 30vh;
+  height: 40vh;
 }
+
+.hero .container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;  
+  justify-content: space-between;
+  align-items: center;
+  color: #E5E7EB;
+  font-size:18px;
+}
+
+.hero .container img {
+  height: 30%;
+  max-width: 400px;
+}
+
 
 .info {
-height: 20vh;
+height: 50vh;
 font-size: 24px;
-background-color: gray;
+background-color: white;
 }
 
+.info h1 {
+  text-align: center;
+}
+
+.info-container {
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.info-container .box {
+  height: 7em;
+  width: 10em;
+  border: solid rgb(0, 140, 255) 10px;
+  margin-bottom: 2rem;
+}
+
+
 .inspire{
-  background-color: #3064cc;
-  font-size: 36px;
-  font-style: italic;
+  background-color: #E5E7EB;
   color: #1F2937;
   height: 30vh;
-  
+  display: flex;
+  align-items: center;
 }
+.inspire .container {
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+.inspire span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 50;
+}
+
+.inspire h2 {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.info h1 {
+  padding: 2rem;
+}
+
 
 
 .hero h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
+  text-align:justify;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
-.hero h2 {
+.hero P {
   font-size: 18px;
   color: #E5E7EB;
+  text-align:justify;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+}
+
+.call-action {
+  height: 30vh;
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.signup{
+  width: 800px;
+  background-color: #3882f6;
+  height: 200px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  font-size: 18px;
 }
